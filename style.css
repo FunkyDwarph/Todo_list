@@ -10,6 +10,12 @@
     border: 7px solid black;
 }
 
+@media (max-width: 767px) {
+    .list-container {
+      width: 100%;
+    }
+  }
+
 .title {
     display: flex;
     flex-direction: column;
